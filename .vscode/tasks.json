@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/nst.coe.mediator.app/nst.coe.mediator.app.csproj",
+                "${workspaceFolder}/src/nst.coe.mediator.cli/nst.coe.mediator.cli.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/nst.coe.mediator.app/nst.coe.mediator.app.csproj",
+                "${workspaceFolder}/src/nst.coe.mediator.cli/nst.coe.mediator.cli.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/nst.coe.mediator.app/nst.coe.mediator.app.csproj"
+                "${workspaceFolder}/src/nst.coe.mediator.cli/nst.coe.mediator.cli.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

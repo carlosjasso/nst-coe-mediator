@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F40CB465-F1F9-429D-B73C-E6C6043A19D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nst.coe.mediator.app", "src\nst.coe.mediator.app\nst.coe.mediator.app.csproj", "{A7B84CAB-4DC3-470A-BCCD-D07D01BF9B40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nst.coe.mediator.cli", "src\nst.coe.mediator.cli\nst.coe.mediator.cli.csproj", "{A7B84CAB-4DC3-470A-BCCD-D07D01BF9B40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/nst.coe.mediator.app/bin/Debug/net6.0/nst.coe.mediator.app.dll",
+            "program": "${workspaceFolder}/src/nst.coe.mediator.cli/bin/Debug/net6.0/nst.coe.mediator.cli.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/nst.coe.mediator.app",
+            "cwd": "${workspaceFolder}/src/nst.coe.mediator.cli",
             "console": "internalConsole",
             "stopAtEntry": false,
             "env": {
