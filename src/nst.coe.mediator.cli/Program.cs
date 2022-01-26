@@ -9,12 +9,12 @@ namespace nst.coe.mediator.cli
 		{
 			var airplane = new Airplane();
 			var helicopter = new Helicopter();
-			var tower = new ControlTower(airplane, helicopter);
+			var controlTower = new ControlTower(airplane, helicopter);
 
 			Console.WriteLine($"Program triggering {airplane.GetType().Name} {AircraftAction.Land}");
 			airplane.Land();
 
-			Console.WriteLine($"Program triggering {helicopter.GetType().Name} {AircraftAction.Depart}");
+			Console.WriteLine($"\nProgram triggering {helicopter.GetType().Name} {AircraftAction.Depart}");
 			helicopter.Depart();
 		}
 	}

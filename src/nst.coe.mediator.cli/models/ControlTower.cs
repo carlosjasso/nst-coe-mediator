@@ -16,7 +16,7 @@ namespace nst.coe.mediator.cli.models
 			this._helicopter.Mediator = this;
 		}
 
-		public void Notify(Aircraft sender, AircraftAction action)
+		public void Notify(object sender, AircraftAction? action = null)
 		{
 			if (action == AircraftAction.Depart || action == AircraftAction.Land)
 			{
